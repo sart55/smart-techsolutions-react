@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
-import CommentSection from "../components/Commentsection";
+import CommentSection from "../components/CommentSection";
 import PaymentForm from "../components/PaymentForm";
 
 const NewProject = () => {
@@ -693,3 +693,4 @@ const NewProject = () => {
 };
 
 export default NewProject;
+
