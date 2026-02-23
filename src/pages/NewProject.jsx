@@ -1,7 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
-import CommentSection from "../components/CommentSection";
+
 import PaymentForm from "../components/PaymentForm";
+import CommentSection from "../components/CommentSection";
 
 const NewProject = () => {
   const { id } = useParams();
@@ -693,6 +694,7 @@ const NewProject = () => {
 };
 
 export default NewProject;
+
 
 
 
